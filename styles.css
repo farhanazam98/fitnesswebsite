@@ -1,0 +1,64 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+  font-size: 21px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+}
+
+a {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  color: blue;
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
+
+a:hover {
+  color: #ADD8E6;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: lower-roman;
+}
+.intro {
+  text-align: center;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.content {
+  margin-left: 400px;
+  margin-right: 400px;
+}
