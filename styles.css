@@ -1,49 +1,206 @@
-/* * {
+/* Use 60 30 10 ratio for colors  */
+/* https://dribbble.com/stories/2018/12/19/choosing-colors-for-web-design-a-practical-ui-color-application-guide */
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D; /* Red */
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E; /* Yellow */
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #fff; /* Blue */
+  }
+}
+
+.menu-container {
+  display: flex;
+  color: #fff;
+  background-color: #5995DA;  /* Blue */
+  padding: 20px 0;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  width: 900px;
+  justify-content: space-between;
+
+}
+
+.header-container {
+  color: #5995DA;
+  background-color: #D6E9FE;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #D6E9FE;
+  height: 200px;
+  flex: 1;
+}
+.footer-one,
+.footer-three {
+  background-color: #5995DA;
+  flex: initial;
+  width: 300px;
+}
+/*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container {
+
+  background-color: #EAEDF0;
+}
+
+.menu {
+  height: 200px;
+  background-color:#D6E9FE;
+  clear: both;      
+}
+
+.menu-item {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 80%;
+  background-color: #B2D6FF;    
+  text-align: center;
+}
+
+.sidebar {
+  float: left;                
+  width: 200px;
+  height: 300px;
+  background-color: #F09A9D;
+}
+
+.content {
+  float: left;                 
+  width: 650px;
+  height: auto;
+  background-color: #F5CF8E;
+  padding: 20px;
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.footer {   
+  clear: both;     
+  height: 100px;
+  background-color: #B2D6FF;
+}
 
 body {
-  color: #414141;               /* Dark gray */
-  background-color: #EEEEEE;    /* Light gray */
+  font-family: 'Roboto', sans-serif;           
   font-size: 21px;
 }
 
-h1 {
+h1 {             
   font-size: 2em;
+  text-align: center;
 }
 
 h2 {
   font-size: 1.6em;
+  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
 }
 
 a {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  color: blue;
-}
-
+} */
+/* 
 a:link {
-  color: blue;
   text-decoration: none;
 }
 a:visited {
-  color: blue;
-}
+  color: #696969;
+} */
 
 a:hover {
-  color: #ADD8E6;
   text-decoration: underline;
 }
 
 a:active {
-  color: blue;
+  color: #0B4F6C;
 }
 
 ul {
@@ -53,12 +210,13 @@ ul {
 ol {
   list-style-type: lower-roman;
 }
-.intro {
+
+/* .intro {
   text-align: center;
-  margin-left: 400px;
-  margin-right: 400px;
-}
-.content {
-  margin-left: 400px;
-  margin-right: 400px;
-}
+  width: 600px;
+  margin: 40px auto;
+} */
+/* .content {
+  width: 600px;
+  margin: 40px auto;
+} */
