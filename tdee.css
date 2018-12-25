@@ -14,14 +14,14 @@ Reddish/Brown Accent = #763626
 
 body,
 label {
-background-color: #90AFC5;
+background-color: #D6E9FE;
 font-family: 'Ruda', sans-serif;
-color: #2A3132;
+color: #5D6063;
 }
 
 
 legend.calculate {
-color: #336B87;
+color: #5D6063;
 font-weight: bolder;
 font-size: 1.4em;
 font-family: 'Bungee Inline', cursive;
@@ -66,6 +66,7 @@ margin: 10px;
 .btn-center{
 margin-left: auto;
 margin-right: auto;
+background-color: #5995DA;
 }
 
 /* loader */
