@@ -75,6 +75,13 @@ body {
   flex-wrap: wrap;
 }
 
+.photo-grid-2{
+  width: 900px;
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
 .photo-grid-item {
   border: 1px solid #fff;
   width: 300px;
@@ -177,6 +184,7 @@ a:link,
   .article {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   
   .article-item {
